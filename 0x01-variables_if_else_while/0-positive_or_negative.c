@@ -1,19 +1,30 @@
- #include <stdio.h>
+#include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
 
 int main (void){
+    /**
+ * main - entry point
+ *
+ * Return:always return 0
+ *
+ */
 
-    int nbr;
+    int n;
 
 srand(time(0));
-nbr = rand() - RAND_MAX / 2;
-    if (nbr<0)
-        printf("%d is negatif \n",nbr);
-    if (nbr ==0)
-        printf("%d is zero \n",nbr);
-    if (nbr >0)
-        printf("%d is positif",nbr);
+n = rand() - RAND_MAX / 2;
+    if (n <0)
+    {
+        printf("%d is negatif \n",n);
+    }
+    else if(n ==0){
+        printf("%d is zero \n",n);
 
+    }
+    else {
+
+        printf("%d is positif",n);
+    }
     return 0;
 } 
