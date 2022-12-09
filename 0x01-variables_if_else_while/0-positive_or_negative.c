@@ -1,10 +1,13 @@
-#include <stdio.h>
+ #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
-int main (){
+int main (void){
 
     int nbr;
-    printf("Veuillez saisir un nombre\n ");
-    scanf("%d",&nbr);
+
+srand(time(0));
+nbr = rand() - RAND_MAX / 2;
     if (nbr<0)
         printf("%d is negatif \n",nbr);
     if (nbr ==0)
