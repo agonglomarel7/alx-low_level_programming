@@ -12,4 +12,5 @@ int main (){
     if (nbr >0)
         printf("%d is positif",nbr);
 
-}
+    return 0;
+} 
