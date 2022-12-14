@@ -3,14 +3,14 @@
 
 int main (void)
 {
-    char _str[9] = "_putchar";
+    char _str[10] = "_putchar";
     int i;
 
-    for ( i = 0; i < 9; i++)
+    for ( i = 0; i < 8; i++)
     {
         _putchar(_str[i]);
     
     }
-    _putchar(9);    
+    _putchar(10);    
     return (0);
 }
