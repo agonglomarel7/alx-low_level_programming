@@ -14,4 +14,4 @@ void print_alphabet(void){
         printf("%c", ch);  
     }
     printf("\n") ;
-};
+}
