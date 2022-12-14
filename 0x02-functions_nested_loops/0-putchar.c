@@ -1,16 +1,21 @@
-#include <stdio.h>
+
 #include "main.h"
 
-int main (void)
+/**
+*main - function prints text as output
+*
+*Return:return 0
+*/
+int main(void)
 {
-    char _str[10] = "_putchar";
-    int i;
+	char school[10] = "_putchar";
 
-    for ( i = 0; i < 8; i++)
-    {
-        _putchar(_str[i]);
-    
-    }
-    _putchar(10);    
-    return (0);
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(school[i]);
+	}
+	_putchar(10);
+	return (0);
 }
